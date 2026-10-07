@@ -1,3 +1,16 @@
-.venv
-build
-dist
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Node / Rust（历史残留，防误提交）
+node_modules/
+src-tauri/target/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
