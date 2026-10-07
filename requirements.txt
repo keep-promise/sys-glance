@@ -1,0 +1,7 @@
+PyQt6>=6.6
+psutil>=5.9
+nvidia-ml-py>=12.0
+wmi>=1.5.1
+pyqtgraph>=0.13
+pywin32>=306
+pythonnet>=3.0        # 可选：LibreHardwareMonitor 温度桥接（缺失时自动降级）

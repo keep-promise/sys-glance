@@ -1,0 +1,14 @@
+{
+  "name": "sysglance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SysGlance — Windows 硬件总览与实时监控（PyQt6 + psutil + WMI）",
+  "scripts": {
+    "start": ".venv\\Scripts\\python main.py",
+    "smoke": ".venv\\Scripts\\python main.py --smoke-test",
+    "deps": ".venv\\Scripts\\python -m pip install -r requirements.txt",
+    "prebuild": ".venv\\Scripts\\python -m pip install pyinstaller",
+    "build": ".venv\\Scripts\\python -m PyInstaller build.spec",
+    "dist:clean": "powershell -NoProfile -Command \"Remove-Item -Recurse -Force dist, build -ErrorAction SilentlyContinue\""
+  }
+}
